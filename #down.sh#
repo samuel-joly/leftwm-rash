@@ -1,0 +1,8 @@
+#!/usr/bin/bash
+
+SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
+
+leftwm-command "UnloadTheme"
+
+killall -q picom
+killall -q polybar
