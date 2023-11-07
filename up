@@ -14,6 +14,6 @@ if [ -x "$(command -v feh)" ]; then
   feh --bg-fill $SCRIPTPATH/background.jpg --no-fehbg
 fi
 picom --config $SCRIPTPATH/picom.conf &
-polybar -c $SCRIPTPATH/polybar.ini workspace &
-polybar -c $SCRIPTPATH/polybar.ini title &
-polybar -c $SCRIPTPATH/polybar.ini infos &
+#polybar -c $SCRIPTPATH/polybar.ini workspace &
+#polybar -c $SCRIPTPATH/polybar.ini title &
+#polybar -c $SCRIPTPATH/polybar.ini infos &
