@@ -3,5 +3,5 @@
 margin: [0, 0, 0, 0],
 default_border_color: "#FFFFFF",
 floating_border_color: "#FFFFFF",
-focused_border_color: "#CCCCCC",
+focused_border_color: "#000000",
 )
