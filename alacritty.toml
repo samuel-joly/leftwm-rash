@@ -1,0 +1,25 @@
+[env]
+TERM= "alacritty"
+
+[window]
+decorations= "none"
+opacity= 1
+startup_mode= "Windowed"
+title= "Alacritty"
+dynamic_title= true
+
+[font]
+size= 11
+
+  [font.normal]
+  family= "monospace"
+  style= "Regular"
+
+[colors.cursor]
+text= "CellBackground"
+cursor= "CellForeground"
+
+[colors.vi_mode_cursor]
+text= "CellBackground"
+cursor= "CellForeground"
+
