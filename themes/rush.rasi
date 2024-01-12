@@ -11,7 +11,7 @@
     lightfg:                     rgba ( 88, 104, 117, 100 % );
     lightbg:                     rgba ( 238, 232, 213, 100 % );
     blue:                        rgba ( 38, 139, 210, 100 % );
-    bg-primary:                  rgba(2, 48, 71, 80%);
+    bg-primary:                  rgba(2, 48, 71, 100%);
 
     spacing:                     0;
     background-color:            transparent;
@@ -166,7 +166,7 @@ textbox-num-sep {
     text-color: Gray;
 }
 inputbar {
-    background-color: rgba(2, 48, 71, 80%);
+    background-color: rgba(2, 48, 71, 100%);
     padding:    10px;
     margin: 0 0 10px 0;
     text-color: var(normal-foreground);
@@ -185,7 +185,7 @@ entry {
     padding:           5px 5px 5px 10px;
     placeholder-color: white;
     placeholder:       "Search";
-    background-color: rgba(97, 107, 203, 60%);
+    background-color: rgba(97, 107, 203, 100%);
 }
 prompt {
     padding: 5px;
